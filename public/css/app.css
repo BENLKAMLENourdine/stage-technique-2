@@ -1,0 +1,77 @@
+.navbar-default {
+    background-color: rgb(86,158,144);
+    border: none;
+    border-radius: 0;
+}
+.navbar a{
+    color: white !important;
+}
+.navbar{
+    margin-bottom: 0 !important;
+}
+
+.navbar-brand{
+    background-color: rgb(146,208,80);
+    height: 52px;
+}
+.publier{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    margin-top: 10px;
+    color: black !important;
+    background-color: rgb(255,192,0);
+}
+
+footer{
+    background-color: rgb(191,191,191);
+    color: black;
+    padding-top: 10px;
+    font-size: 13px;
+
+}
+footer a{
+    color: black;
+}
+footer img{
+    max-height: 35px;
+}
+
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+.best-categorie{
+    border: solid 1px gray;
+    padding: 5px 15px; color: black;
+    margin-right: 8px;
+}
+.gray{
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+#map_zoom{
+    display: none;
+}
+#map{
+    width: 33.3333% !important;
+}
+
+#map_holder{
+    padding-left: 33px;
+}
+.villes li a{
+    color: rgb(86,158,144);
+    font-size: 18px;
+}
